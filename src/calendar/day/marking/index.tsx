@@ -48,6 +48,7 @@ export interface MarkingProps extends DotProps {
   customTextStyle?: StyleProp<TextStyle>;
   customContainerStyle?: StyleProp<ViewStyle>;
   dotColor?: string;
+  fillerColor?: string;
   //multi-dot
   dots?: DOT[];
   //multi-period
